@@ -4,7 +4,7 @@
   "description": "UI where user can upload images",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development --open",
+    "start": "serve -s dist",
     "build": "webpack --mode production",
     "vercel-build": "npm run build",
     "test": "jest"
