@@ -1,4 +1,0 @@
-{
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-  "builds": [{ "src": "webpack.config.js", "use": "@vercel/static-build" }]
-}
