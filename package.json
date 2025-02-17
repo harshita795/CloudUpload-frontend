@@ -4,21 +4,13 @@
   "description": "UI where user can upload images",
   "main": "index.js",
   "scripts": {
-    "start": "serve -s dist",
+    "start": "webpack serve --mode development --open",
     "build": "webpack --mode production",
     "vercel-build": "npm run build",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imrhlrvndrn/ms2-cloudinary-frontend.git"
-  },
-  "author": "Priyamvad Acharya",
+  "author": "Harshita Yadav",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/imrhlrvndrn/ms2-cloudinary-frontend/issues"
-  },
-  "homepage": "https://github.com/imrhlrvndrn/ms2-cloudinary-frontend#readme",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.7.7",
@@ -32,6 +24,7 @@
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
     "css-loader": "^7.1.2",
+    "dotenv-webpack": "^8.1.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1",
