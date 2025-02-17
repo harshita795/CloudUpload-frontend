@@ -1,5 +1,5 @@
 {
-  "name": "ms2_cloudinary_frontend",
+  "name": "cloudUpload-frontend",
   "version": "1.0.0",
   "description": "UI where user can upload images",
   "main": "index.js",
